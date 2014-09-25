@@ -59,17 +59,6 @@ class CalculateTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(1, $calculate->getResult());
     }
 
-
-    /**
-     *
-     */
-    public function testDivideByZero()
-    {
-        $calculator = new Calculate(2);
-        $this->setExpectedException('Codersquad\Pestophp\Exception\DivisionByZeroException');
-        $calculator->divide(0);
-    }
-
     /**
      *
      */

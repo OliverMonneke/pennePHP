@@ -157,7 +157,7 @@ class CollectionTest extends PHPUnit_Framework_TestCase
             ['a', 'b'],
             Collection::filter(
                 ['a', 'b', 2],
-                ['Codersquad\Pestophp\Datatype\String', 'isValid']
+                ['Codersquad\Pennephp\Datatype\String', 'isValid']
             )
         );
     }
