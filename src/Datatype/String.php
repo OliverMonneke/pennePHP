@@ -107,10 +107,7 @@ class String implements IDatatype
             return false;
         }
 
-        if (!$caseSensitive) {
-            $needle = self::lower($needle);
-            $haystack = self::lower($haystack);
-        }
+        list($needle, $haystack) = self::transformCase($needle, $haystack, $caseSensitive);
 
         return (self::substring($haystack, 0, self::length($needle)) === $needle);
     }
@@ -126,10 +123,7 @@ class String implements IDatatype
      */
     public static function endsWith($needle, $haystack, $caseSensitive = true)
     {
-        if (!$caseSensitive) {
-            $needle = self::lower($needle);
-            $haystack = self::lower($haystack);
-        }
+        list($needle, $haystack) = self::transformCase($needle, $haystack, $caseSensitive);
 
         return (self::substring($haystack, -(self::length($needle))) === $needle);
     }
@@ -149,10 +143,7 @@ class String implements IDatatype
             return false;
         }
 
-        if (!$caseSensitive) {
-            $needle = self::lower($needle);
-            $haystack = self::lower($haystack);
-        }
+        list($needle, $haystack) = self::transformCase($needle, $haystack, $caseSensitive);
 
         return (mb_strpos($haystack, $needle) !== false);
     }
@@ -231,5 +222,21 @@ class String implements IDatatype
     public static function upperFirst($string)
     {
         return self::upper(self::substring($string, 0, 1)).self::substring($string, 1);
+    }
+
+    /**
+     * @param $needle
+     * @param $haystack
+     * @param $caseSensitive
+     * @return array
+     */
+    protected static function transformCase($needle, $haystack, $caseSensitive)
+    {
+        if (!$caseSensitive) {
+            $needle = self::lower($needle);
+            $haystack = self::lower($haystack);
+            return array($needle, $haystack);
+        }
+        return array($needle, $haystack);
     }
 }

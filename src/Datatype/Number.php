@@ -119,9 +119,7 @@ class Number implements IDatatype
      */
     public static function toInteger($var)
     {
-        if (Object::isValid($var)) {
-            $var = 0;
-        }
+        $var = self::transformIfObject($var);
 
         return intval($var);
     }
@@ -135,9 +133,7 @@ class Number implements IDatatype
      */
     public static function toFloat($var)
     {
-        if (Object::isValid($var)) {
-            $var = 0;
-        }
+        $var = self::transformIfObject($var);
 
         return floatval($var);
     }
@@ -151,9 +147,7 @@ class Number implements IDatatype
      */
     public static function toDouble($var)
     {
-        if (Object::isValid($var)) {
-            $var = 0;
-        }
+        $var = self::transformIfObject($var);
 
         return doubleval($var);
     }
@@ -221,5 +215,18 @@ class Number implements IDatatype
         }
 
         return rand($min, $max);
+    }
+
+    /**
+     * @param $var
+     * @return int
+     */
+    protected static function transformIfObject($var)
+    {
+        if (Object::isValid($var)) {
+            $var = 0;
+            return $var;
+        }
+        return $var;
     }
 }
