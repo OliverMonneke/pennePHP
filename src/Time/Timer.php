@@ -1,10 +1,15 @@
 <?php
 
+/**
+ * Timer management
+ */
 namespace Codersquad\Pennephp\Time;
 
 /**
  * Class Timer
  * @package Codersquad\Pennephp\Time
+ * @author Oliver Monneke <oliver@codersquad.de>
+ * @version 1.0
  */
 class Timer
 {
