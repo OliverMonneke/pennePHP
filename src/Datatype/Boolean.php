@@ -17,7 +17,7 @@ class Boolean implements IDatatype
     /**
      * @var array
      */
-    protected static $_translationMapping = [
+    protected static $translationMapping = [
         'true' => true,
         'false' => false,
         'yes' => true,
@@ -50,9 +50,9 @@ class Boolean implements IDatatype
     {
         if ((String::isValid($expression) ||
                 Number::isValid($expression)) &&
-            Collection::existsKey(self::$_translationMapping, $expression)
+            Collection::existsKey(self::$translationMapping, $expression)
         ) {
-            $expression = self::$_translationMapping[$expression];
+            $expression = self::$translationMapping[$expression];
         }
 
         return $expression;
