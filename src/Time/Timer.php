@@ -16,27 +16,14 @@ class Timer
     /**
      * @var int
      */
-    protected static $startTime = 0;
-
-    /**
-     * @var int
-     */
-    protected static $stopTime = 0;
+    protected static $timer = 0;
 
     /**
      *
      */
     public static function start()
     {
-        self::$startTime = microtime();
-    }
-
-    /**
-     *
-     */
-    public static function stop()
-    {
-        self::$stopTime = microtime();
+        self::$timer = microtime();
     }
 
     /**
@@ -44,6 +31,6 @@ class Timer
      */
     public static function getElapsedTime()
     {
-        return self::$stopTime - self::$startTime;
+        return self::$timer;
     }
 }
