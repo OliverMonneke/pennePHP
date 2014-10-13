@@ -17,6 +17,15 @@ class TimerTest extends PHPUnit_Framework_TestCase
     public function testStart()
     {
         Timer::start();
+        $this->assertLessThan(0, Timer::getElapsedTime());
+    }
+
+    /**
+     *
+     */
+    public function testStop()
+    {
+        Timer::stop();
         $this->assertGreaterThan(0, Timer::getElapsedTime());
     }
 }
