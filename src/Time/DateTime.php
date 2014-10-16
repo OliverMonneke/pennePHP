@@ -125,24 +125,24 @@ class DateTime
         $matches = [];
         preg_match('/^([0-9]*)([s|M|h|d|m|y])$/', $string, $matches);
 
-        switch($matches[2]) {
+        switch ($matches[2]) {
             case 's':
                 $seconds = $matches[1];
                 break;
             case 'M':
-                $seconds = $this->evaluateDateString(60*$matches[1].'s');
+                $seconds = $this->evaluateDateString(60 * $matches[1] . 's');
                 break;
             case 'h':
-                $seconds = $this->evaluateDateString(60*$matches[1].'M');
+                $seconds = $this->evaluateDateString(60 * $matches[1] . 'M');
                 break;
             case 'd':
-                $seconds = $this->evaluateDateString(24*$matches[1].'h');
+                $seconds = $this->evaluateDateString(24 * $matches[1] . 'h');
                 break;
             case 'm':
-                $seconds = $this->evaluateDateString(30*$matches[1].'d');
+                $seconds = $this->evaluateDateString(30 * $matches[1] . 'd');
                 break;
             case 'y':
-                $seconds = $this->evaluateDateString(12*$matches[1].'m');
+                $seconds = $this->evaluateDateString(12 * $matches[1] . 'm');
                 break;
         }
 

@@ -30,6 +30,7 @@ class Boolean implements IDatatype
      * Check if expression is valid
      *
      * @param mixed $expression The expression to check
+     * @param bool $translate
      *
      * @return bool
      */
