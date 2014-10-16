@@ -1,6 +1,7 @@
 # pennePHP
 
 [![Build Status](https://travis-ci.org/codersquad/pennePHP.svg?branch=master)](https://travis-ci.org/codersquad/pennePHP)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a9f25776-6a59-4cb9-a9cd-d98512a21622/big.png)](https://insight.sensiolabs.com/projects/a9f25776-6a59-4cb9-a9cd-d98512a21622)
 
 ## What is pennePHP?
 
