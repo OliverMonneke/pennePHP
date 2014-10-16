@@ -12,7 +12,7 @@ namespace Codersquad\Pennephp\Datatype;
  * @author Oliver Monneke <oliver@codersquad.de>
  * @version 1.0
  */
-class Resource implements IDatatype
+class Resource implements DatatypeInterface
 {
     /**
      * Check if it is a resource

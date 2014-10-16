@@ -12,7 +12,7 @@ namespace Codersquad\Pennephp\Datatype;
  * @author Oliver Monneke <oliver@codersquad.de>
  * @version 1.0
  */
-class Boolean implements IDatatype
+class Boolean implements DatatypeInterface
 {
     /**
      * @var array

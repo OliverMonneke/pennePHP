@@ -12,7 +12,7 @@ namespace Codersquad\Pennephp\Datatype;
  * @author Oliver Monneke <oliver@codersquad.de>
  * @version 1.0
  */
-class String implements IDatatype
+class String implements DatatypeInterface
 {
     /**
      * Check if it is a string

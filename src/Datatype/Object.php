@@ -12,7 +12,7 @@ namespace Codersquad\Pennephp\Datatype;
  * @author Oliver Monneke <oliver@codersquad.de>
  * @version 1.0
  */
-class Object implements IDatatype
+class Object implements DatatypeInterface
 {
     /**
      * Check if it is an object

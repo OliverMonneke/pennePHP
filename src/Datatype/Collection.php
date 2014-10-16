@@ -12,7 +12,7 @@ namespace Codersquad\Pennephp\Datatype;
  * @author Oliver Monneke <oliver@codersquad.de>
  * @version 1.0
  */
-class Collection implements IDatatype
+class Collection implements DatatypeInterface
 {
     /**
      * Convert to array

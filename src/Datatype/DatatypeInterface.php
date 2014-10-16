@@ -12,7 +12,7 @@ namespace Codersquad\Pennephp\Datatype;
  * @author Oliver Monneke <oliver@codersquad.de>
  * @version 1.0
  */
-interface IDatatype
+interface DatatypeInterface
 {
     /**
      * Check if expression is valid
