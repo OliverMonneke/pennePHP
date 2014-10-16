@@ -2,14 +2,23 @@
     "name": "codersquad/pennephp",
     "type": "library",
     "description": "Simple PHP libraries for faster development",
-    "homepage": "http://github.com/Codersquad/pennePHP",
+    "homepage": "http://pennephp.codersquad.de",
     "license": "MIT",
     "authors": [
         {
             "name": "Oliver Monneke",
             "email": "oliver@codersquad.de",
-            "homepage": "http://pennephp.codersquad.de",
-            "role": "Developer"
+            "homepage": "http://codersquad.de",
+            "role": "Developer",
+            "dist": {
+                "url": "https://github.com/codersquad/pennephp/archive/master.zip",
+                "type": "zip"
+            },
+            "source": {
+                "url": "git@github.com:codersquad/pennephp.git",
+                "type": "git",
+                "reference": "master"
+            }
         }
     ],
     "require": {
