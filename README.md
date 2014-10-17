@@ -4,7 +4,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/codersquad/pennephp/v/stable.svg)](https://packagist.org/packages/codersquad/pennephp) [![Total Downloads](https://poser.pugx.org/codersquad/pennephp/downloads.svg)](https://packagist.org/packages/codersquad/pennephp) [![License](https://poser.pugx.org/codersquad/pennephp/license.svg)](https://packagist.org/packages/codersquad/pennephp) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/codersquad/pennePHP/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/codersquad/pennePHP/?branch=develop)
 
-[![HHVM Status](http://hhvm.h4cc.de/badge/codersquad/pennephp.svg)](http://hhvm.h4cc.de/package/codersquad/pennephp)
+[![HHVM Status](http://hhvm.h4cc.de/badge/codersquad/pennephp.svg)](http://hhvm.h4cc.de/package/codersquad/pennephp) [![Dependency Status](https://www.versioneye.com/user/projects/5440fc9b580507f42e000052/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5440fc9b580507f42e000052)
 
 ## What is pennePHP?
 
