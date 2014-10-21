@@ -156,7 +156,7 @@ class String implements DatatypeInterface
      * @param string $string        The string to check
      * @param bool   $caseSensitive Case sensitive replacement
      *
-     * @return string
+     * @return string|bool
      */
     public static function replace($search, $replace, $string, $caseSensitive = true)
     {
