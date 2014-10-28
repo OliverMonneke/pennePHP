@@ -204,7 +204,7 @@ class File
      * @param int  $length  Length of content to read
      * @param bool $asArray Get as array
      *
-     * @return array|string
+     * @return array|string|bool
      */
     public function read($length = 0, $asArray = false)
     {
