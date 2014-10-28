@@ -14,12 +14,12 @@ namespace Codersquad\Pennephp\Time;
 class Timer
 {
     /**
-     * @var int
+     * @var double|string
      */
     protected static $start = 0;
 
     /**
-     * @var int
+     * @var double|string
      */
     protected static $stop = 0;
 
