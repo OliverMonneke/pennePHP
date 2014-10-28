@@ -53,6 +53,6 @@ abstract class Exception extends \Exception
         $errorMessage = [];
         $errorMessage[] = 'Error '.$this->errorCode.' occured: '.self::$errorCodes[$this->errorCode];
 
-        $this->message = Collection::implode('<br />', $errorMessage);
+        $this->message = Collection::implode($errorMessage, '<br />');
     }
 }
