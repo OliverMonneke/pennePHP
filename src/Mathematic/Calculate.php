@@ -20,7 +20,7 @@ class Calculate
     /**
      * The number to calculate with
      *
-     * @var int
+     * @var int|double
      */
     protected $number = 0;
 
