@@ -202,12 +202,6 @@ class String implements DatatypeInterface
      */
     public static function isNotEmpty($string)
     {
-        if (!self::isValid($string) &&
-            null !== $string
-        ) {
-            return false;
-        }
-
         return (!self::isEmpty($string));
     }
 
