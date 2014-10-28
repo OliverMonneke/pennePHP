@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class for dae management
+ * Class for date management
  */
 namespace Codersquad\Pennephp\Time;
 
@@ -19,70 +19,70 @@ class DateTime
      *
      * @var string
      */
-    private $formatDate = 'Y-m-d';
+    protected $formatDate = 'Y-m-d';
 
     /**
      * Format of the time
      *
      * @var string
      */
-    private $formatTime = 'H:i:s';
+    protected $formatTime = 'H:i:s';
 
     /**
      * Format of date and time
      *
      * @var string
      */
-    private $formatDateTime = 'Y-m-d H:i:s';
+    protected $formatDateTime = 'Y-m-d H:i:s';
 
     /**
      * The year
      *
      * @var int
      */
-    private $year = null;
+    protected $year = null;
 
     /**
      * The month
      *
      * @var int
      */
-    private $month = null;
+    protected $month = null;
 
     /**
      * The day
      *
      * @var int
      */
-    private $day = null;
+    protected $day = null;
 
     /**
      * The hour
      *
      * @var int
      */
-    private $hour = null;
+    protected $hour = null;
 
     /**
      * The minute
      *
      * @var int
      */
-    private $minute = null;
+    protected $minute = null;
 
     /**
      * The second
      *
      * @var int
      */
-    private $second = null;
+    protected $second = null;
 
     /**
      * Timestamp
      *
      * @var int
      */
-    private $timestamp = null;
+    protected $timestamp = null;
 
     /**
      * Add a specific period
@@ -119,7 +119,7 @@ class DateTime
      *
      * @return int
      */
-    private function evaluateDateString($string)
+    protected function evaluateDateString($string)
     {
         $seconds = 1;
         $matches = [];
@@ -226,7 +226,7 @@ class DateTime
      *
      * @return int
      */
-    private function getTimestamp()
+    protected function getTimestamp()
     {
         if (null === $this->timestamp) {
             $timestamp = mktime($this->hour, $this->minute, $this->second, $this->month, $this->day, $this->year);
