@@ -174,7 +174,7 @@ class String implements DatatypeInterface
     /**
      * Check if string is empty
      *
-     * @param string $string The string
+     * @param mixed $string The string
      *
      * @return bool
      */

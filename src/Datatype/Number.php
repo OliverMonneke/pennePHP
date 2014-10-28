@@ -17,7 +17,7 @@ class Number implements DatatypeInterface
     /**
      * Check if it is a number
      *
-     * @param number $number The number
+     * @param mixed $number The number
      *
      * @return bool
      */
