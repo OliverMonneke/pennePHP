@@ -17,7 +17,7 @@ class Resource implements DatatypeInterface
     /**
      * Check if it is a resource
      *
-     * @param resource $resource The resource
+     * @param mixed $resource The resource
      *
      * @return bool
      */

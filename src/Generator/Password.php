@@ -112,7 +112,11 @@ class Password
             $this->charsToUse .= String::upper($this->charsToUse);
         }
 
-        $this->charArray = array_unique(Collection::explode($this->charsToUse, ''));
+        $charArray = Collection::explode($this->charsToUse, '');
+
+        if (Collection::isValid($charArray)) {
+            $this->charArray = array_unique($charArray);
+        }
     }
 
     /**
@@ -122,7 +126,7 @@ class Password
     {
         $password = '';
 
-        for($i = 0; $i < $this->numberOfPasswords; $i++) {
+        for ($i = 0; $i < $this->numberOfPasswords; $i++) {
             for ($j = 0; $j < $this->passwordLength; $j++) {
                 $password .= $this->charArray[rand(0, Collection::length($this->charArray) - 1)];
             }

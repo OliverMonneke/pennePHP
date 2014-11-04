@@ -29,7 +29,7 @@ class Collection implements DatatypeInterface
     /**
      * Check if it is an array
      *
-     * @param array $array The array
+     * @param mixed $array The array
      *
      * @return bool
      */

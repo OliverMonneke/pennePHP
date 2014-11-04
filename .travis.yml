@@ -18,3 +18,5 @@ addons:
 after_script:
   - CODECLIMATE_REPO_TOKEN=c7c2310e6e0119559a5b814159b4ed6e8a4e3f4447db84dcef508fef3f60d1d9
   - ./bin/test-reporter
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml

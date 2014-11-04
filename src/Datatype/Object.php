@@ -17,7 +17,7 @@ class Object implements DatatypeInterface
     /**
      * Check if it is an object
      *
-     * @param object $object The object
+     * @param mixed $object The object
      *
      * @return bool
      */
