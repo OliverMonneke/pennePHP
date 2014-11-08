@@ -4,7 +4,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/codersquad/pennephp/v/stable.svg)](https://packagist.org/packages/codersquad/pennephp) [![Total Downloads](https://poser.pugx.org/codersquad/pennephp/downloads.svg)](https://packagist.org/packages/codersquad/pennephp) [![License](https://poser.pugx.org/codersquad/pennephp/license.svg)](https://packagist.org/packages/codersquad/pennephp) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/codersquad/pennePHP/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/codersquad/pennePHP/?branch=develop)
 
-[![HHVM Status](http://hhvm.h4cc.de/badge/codersquad/pennephp.svg)](http://hhvm.h4cc.de/package/codersquad/pennephp) [![Dependency Status](https://www.versioneye.com/user/projects/5440fc9b580507f42e000052/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5440fc9b580507f42e000052) [![Coverage Status](https://coveralls.io/repos/codersquad/pennePHP/badge.png)](https://coveralls.io/r/codersquad/pennePHP) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/codersquad/pennephp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![HHVM Status](http://hhvm.h4cc.de/badge/codersquad/pennephp.svg)](http://hhvm.h4cc.de/package/codersquad/pennephp) [![Dependency Status](https://www.versioneye.com/user/projects/5440fc9b580507f42e000052/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5440fc9b580507f42e000052) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/codersquad/pennephp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 ## What is pennePHP?
 
