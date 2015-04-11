@@ -19,3 +19,7 @@ Visit the [issues system](https://github.com/codersquad/pennePHP/issues "issues 
 
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/codersquad/pennephp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
